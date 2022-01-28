@@ -1,0 +1,20 @@
+h1 {color: burlywood; 
+    background-color: cadetblue;
+    border: 2px dashed brown;
+    text-align: center;
+    text-decoration: black;
+    border-radius: 20px;
+    cursor:crosshair;
+}
+header {text-align: center;
+    color: violet;
+}
+main {background-color: turquoise;
+    color: chocolate; float: left;
+}
+
+img {float: right;
+
+}
+
+
