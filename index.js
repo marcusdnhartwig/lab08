@@ -12,6 +12,25 @@ if (question=='lover'){
 
 
 
+
+//!!!UNSURE WHY THIS IS PROMPTING, BUT NOT RESPONDING!!!//
+function helloprompt() {
+    let hello = prompt('From 1 to 10 how bougie are you?');
+    console.log('hello', typeof Number(hello));
+    if (hello === 10) {
+        prompt = "YOU IS BOUGIE!";
+    } else if (hello > 7) {
+        Response = "Your bougie will make a fine addition to my collection";
+    } else if (hello > 5) {
+        Response = "I will accept your bougie, but only just.";
+    } else if (hello > 3) {
+        Response = "unacceptable lack of bougie, but you will learn.";
+    }  else if (hello === 0) {
+        Response = "I find your lack of bougie disturbing.";
+    }
+
+}
+helloprompt();
 function mximagesprompter (){
     let whichprompt = prompt("would you like to see mx?");
     while (whichprompt !== "yes") {
@@ -19,25 +38,9 @@ function mximagesprompter (){
             whichprompt = prompt("that's just too dang bad!");
         } else {
             whichprompt = prompt("would you like to see mx?");
-        }
+        } 
         
     }
     
 } 
 mximagesprompter();
-//!!!UNSURE WHY THIS IS PROMPTING, BUT NOT RESPONDING!!!//
-function helloprompt() {
-    let hello = prompt('From 1 to 10 how bougie are you?');
-    console.log('hello', typeof Number(hello));
-    if (hello == 10) {
-        Response = "YOU IS BOUGIE!";
-    } else if (hello > 7) {
-        Response = "Your bougie will make a fine addition to my collection";
-    } else if (hello > 5) {
-        Response = "I will accept your bougie, but only just.";
-    } else if (hello > 3) {
-        Response = "unacceptable lack of bougie, but you will learn.";
-    } 
-
-}
-helloprompt();
